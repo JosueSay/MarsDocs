@@ -19,7 +19,7 @@ main:
         syscall
 ```
 
-- [Ver en YouTube](https://youtu.be/XXXXXXXXXXX)
+- [Ver en YouTube](https://youtu.be/s4NPwxSC9r8)
 
 ## 🗂️ Detalles del entorno
 
