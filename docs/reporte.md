@@ -21,27 +21,27 @@ main:
         syscall
 ```
 
-![Ejecución del programa](./images/ejecucion_mars.png)
+![Ejecución del programa](../images/ejecucion_mars.png)
 
-## 🔗 Enlaces
+## Enlaces
 
 - [Ver en YouTube](https://youtu.be/s4NPwxSC9r8)
 - [Repositorio](https://github.com/JosueSay/MarsDocs)
 
-## 🗂️ Detalles del entorno
+## Entorno
 
 - **Simulador:** MARS v4.5.1 (.jar)
 - **Entorno:** Java OpenJDK 21.0.8
 - **Sistema operativo:** Ubuntu 22.04
 
-## 🧠 Explicación de registros
+## Explicación de registros
 
 - **`$v0`** → Contiene el número de servicio del sistema (4 = imprimir texto, 10 = salir).
 - **`$a0`** → Apunta a la dirección en memoria donde está la cadena `"Hello World\n"`.
 - **`$t0`, `$t1`, etc.** → Registros temporales disponibles si el programa realiza más operaciones.
 - La instrucción **`syscall`** usa los valores en estos registros para ejecutar la acción correspondiente en el simulador.
 
-## 🧩 Parte superior – *Text Segment*
+## Parte superior – *Text Segment*
 
 Contiene el código ensamblado línea por línea:
 
@@ -51,21 +51,21 @@ Contiene el código ensamblado línea por línea:
 - `li $v0, 10` + `syscall` → termina el programa.
   El resaltado amarillo marca la instrucción actual al depurar paso a paso.
 
-## 💾 Data Segment
+## Data Segment
 
 Muestra la cadena almacenada en memoria:
 
 - Las direcciones (`0x10010000`, etc.) contienen los bytes de `"Hello World\n"`.
 - Puedo ver la traducción ASCII de los valores hexadecimales.
 
-## 🧮 Registers (panel derecho)
+## Registers (panel derecho)
 
 - `$v0 = 0x00000004` → indica el servicio a ejecutar.
 - `$a0` → contiene la dirección del mensaje en memoria.
 - Los demás registros permanecen en cero.
   Cuando ejecuto paso a paso, `$v0` cambia a `10` antes de salir.
 
-## 🪶 Mars Messages (parte inferior)
+## Mars Messages (parte inferior)
 
 Indica el resultado del ensamblado:
 
