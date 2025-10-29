@@ -152,9 +152,9 @@ Desde el menú Run o la barra de herramientas, los botones permiten controlar la
 8. Usar Tools si quieres analizar comportamiento más profundo (por ejemplo caché).
 9. Reiniciar (Reset) y repetir según sea necesario.
 
-[1]: https://cs.slu.edu/~fritts/CSCI140_F12/schedule/MARS%20Tutorial.pdf?utm_source=chatgpt.com "MARS Tutorial"
-[2]: https://www.inf.ufpr.br/hexsel/ci210/assembly/MARS_Tutorial.pdf?utm_source=chatgpt.com "MSU CSC 285, Fall 2006"
-[3]: https://www.scribd.com/document/573424757/lab-1-to-6-of-mips-assembly-language?utm_source=chatgpt.com "MIPS Assembly Basics with MARS | PDF | Menu (Computing)"
-[4]: https://computerscience.missouristate.edu/mars-mips-simulator.htm?utm_source=chatgpt.com "MARS MIPS Assembler and Runtime Simulator"
-[5]: https://courses.e-ce.uth.gr/CE134/resources/MARS_UserGuide.pdf?utm_source=chatgpt.com "Registers Instruction Set Directives"
-[6]: https://faculty.kfupm.edu.sa/COE/aimane/coe301/tools_manuals/MARS.pdf?utm_source=chatgpt.com "An Education-Oriented MIPS Assembly Language Simulator"
+[1]: https://cs.slu.edu/~fritts/CSCI140_F12/schedule/MARS%20Tutorial.pdf "MARS Tutorial"
+[2]: https://www.inf.ufpr.br/hexsel/ci210/assembly/MARS_Tutorial.pdf "MSU CSC 285, Fall 2006"
+[3]: https://www.scribd.com/document/573424757/lab-1-to-6-of-mips-assembly-language "MIPS Assembly Basics with MARS | PDF | Menu (Computing)"
+[4]: https://computerscience.missouristate.edu/mars-mips-simulator.htm "MARS MIPS Assembler and Runtime Simulator"
+[5]: https://courses.e-ce.uth.gr/CE134/resources/MARS_UserGuide.pdf "Registers Instruction Set Directives"
+[6]: https://faculty.kfupm.edu.sa/COE/aimane/coe301/tools_manuals/MARS.pdf "An Education-Oriented MIPS Assembly Language Simulator"

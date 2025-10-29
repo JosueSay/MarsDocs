@@ -201,8 +201,7 @@ main:
 **Ejecuto con argumentos**:
 
 ```bash
-java -jar Mars4_5.jar me sm hello.asm pa ChatGPT
-# Salida: "Hola, ChatGPT"
+java -jar Mars4_5.jar me sm hello.asm
 ```
 
 (El uso de syscalls 4/10 y paso de argumentos `pa` está definido en la ayuda oficial). ([dpetersanderson.github.io][4])
