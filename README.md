@@ -1,4 +1,4 @@
-# Documentación MARS
+# Documentación MARS 📄
 
 El programa **“Hello World”** en MIPS define en la sección `.data` una cadena llamada `msg` y en la sección `.text` implementa la rutina `main`. Primero se carga el número de servicio **4** en `$v0` (imprimir cadena) y la dirección de `msg` en `$a0`, luego ejecuta **`syscall`** para mostrar el texto y finalmente, se carga **10** en `$v0` y llamo a **`syscall`** otra vez para finalizar el programa.
 
